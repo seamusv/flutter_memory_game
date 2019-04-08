@@ -1,0 +1,32 @@
+name: memory
+description: Memory card game
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+  flip_card: ^0.2.1
+  flutter_icons: ^0.1.3
+  flutter_hooks: ^0.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - back.png
+
+  fonts:
+    - family: SigmarOne
+      fonts:
+        - asset: assets/SigmarOne-Regular.ttf
